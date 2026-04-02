@@ -1,0 +1,11 @@
+torch
+transformers==4.38.2
+numpy
+pandas
+scikit-learn
+scipy
+tqdm
+pyyaml
+nltk
+python-Levenshtein
+sentence-transformers
