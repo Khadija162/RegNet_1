@@ -1,0 +1,9 @@
+model:
+  d_llm: 384
+  d_num: 32
+  d_cat: 16
+  d_shared: 384
+  decoder_dim: 384
+  max_text_len: 64
+  top_k_edges: 5
+  memory_size: 300
