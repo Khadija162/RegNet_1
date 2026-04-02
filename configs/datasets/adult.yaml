@@ -1,0 +1,21 @@
+name: adult
+file_path: data/raw/adult.csv
+textual_columns: []
+categorical_columns:
+  - workclass
+  - education
+  - marital-status
+  - occupation
+  - relationship
+  - race
+  - sex
+  - native-country
+numerical_columns:
+  - age
+  - fnlwgt
+  - education-num
+  - capital-gain
+  - capital-loss
+  - hours-per-week
+text_encoder_model: sentence-transformers/all-MiniLM-L6-v2
+tokenizer_model: distilbert-base-uncased
