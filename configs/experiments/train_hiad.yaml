@@ -1,0 +1,20 @@
+dataset: hiad_2_1
+command: train
+
+training:
+  batch_size: 8
+  epochs: 5
+  lr: 1.0e-4
+  seed: 42
+  test_size: 0.2
+
+missingness:
+  ratio: 0.3
+  scenario: mcar
+
+output:
+  root_dir: outputs
+  run_name: hiad_train
+
+model:
+  config_path: configs/model/ragnet.yaml
