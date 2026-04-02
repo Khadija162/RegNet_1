@@ -1,0 +1,19 @@
+name: nyc_crash
+file_path: data/raw/nyc_crash.csv
+textual_columns:
+  - ON STREET NAME
+  - CROSS STREET NAME
+  - OFF STREET NAME
+categorical_columns:
+  - BOROUGH
+  - CONTRIBUTING FACTOR VEHICLE 1
+  - VEHICLE TYPE CODE 1
+numerical_columns:
+  - NUMBER OF PERSONS INJURED
+  - NUMBER OF PERSONS KILLED
+  - NUMBER OF PEDESTRIANS INJURED
+  - NUMBER OF PEDESTRIANS KILLED
+  - NUMBER OF CYCLIST INJURED
+  - NUMBER OF CYCLIST KILLED
+text_encoder_model: sentence-transformers/all-MiniLM-L6-v2
+tokenizer_model: distilbert-base-uncased

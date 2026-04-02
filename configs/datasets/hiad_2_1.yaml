@@ -1,0 +1,32 @@
+name: hiad_2_1
+file_path: data/raw/hiad_2_1.csv
+textual_columns:
+  - Event full description
+  - Lesson Learnt
+  - Post-event summary
+categorical_columns:
+  - Classification of the physical effects
+  - Nature of the consequences
+  - Release type
+  - Detection
+  - Area
+  - Operation phase
+  - Equipment involved
+  - Root cause
+  - Barrier type
+  - Event category
+  - Severity
+  - Activity
+  - Human factor
+numerical_columns:
+  - Pressure
+  - Temperature
+  - Quantity released
+  - Duration
+  - Wind speed
+  - Humidity
+  - Age of equipment
+  - Cost impact
+  - Downtime
+text_encoder_model: sentence-transformers/all-MiniLM-L6-v2
+tokenizer_model: distilbert-base-uncased

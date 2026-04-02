@@ -1,0 +1,22 @@
+name: airbnb
+file_path: data/raw/airbnb.csv
+textual_columns:
+  - name
+  - description
+  - neighborhood_overview
+categorical_columns:
+  - property_type
+  - room_type
+  - neighbourhood_cleansed
+  - host_response_time
+  - host_is_superhost
+numerical_columns:
+  - accommodates
+  - bathrooms
+  - bedrooms
+  - beds
+  - price
+  - minimum_nights
+  - number_of_reviews
+text_encoder_model: sentence-transformers/all-MiniLM-L6-v2
+tokenizer_model: distilbert-base-uncased

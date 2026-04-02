@@ -1,0 +1,21 @@
+name: australian_credit
+file_path: data/raw/australian_credit.csv
+textual_columns: []
+categorical_columns:
+  - A1
+  - A4
+  - A5
+  - A6
+  - A8
+  - A9
+  - A11
+  - A12
+numerical_columns:
+  - A2
+  - A3
+  - A7
+  - A10
+  - A13
+  - A14
+text_encoder_model: sentence-transformers/all-MiniLM-L6-v2
+tokenizer_model: distilbert-base-uncased
